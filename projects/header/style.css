@@ -1,13 +1,50 @@
-*{
+@import url(https://fonts.googleapis.com/css?family=Exo+2:300&subset=latin,cyrillic);
+
+body {
     margin: 0;
-    padding: 0;
+    font-family: "Exo 2", sans-serif;
 }
-
-body{
-    
+.header {
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-
-.header{
-    width: 100%;
-    box-sizing: border-box;
+.header .nav-links {
+    display: flex;
+    gap: 20px;
+}
+.header .nav-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+.header .nav-links a.active {
+    color: #00bfa5;
+}
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #00bfa5;
+}
+.header .auth-links {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.header .auth-links a {
+    text-decoration: none;
+    color: #00bfa5;
+    font-size: 16px;
+}
+.header .auth-links .signup {
+    border: 1px solid #00bfa5;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+.header .auth-links .login {
+    margin-right: 100px;
+    margin-left: 20px;
 }
