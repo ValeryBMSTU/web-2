@@ -1,13 +1,107 @@
 *{
     margin: 0;
     padding: 0;
+
+    box-sizing: border-box;
 }
 
 body{
+    width: 100vw;
+    height: 100vh;
+
+    background-color: #15638F;
+    font-family: Montserrat;
     
+    font-weight: 300;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    color: inherit;
+    background: transparent;
+    border: none;
+
+    cursor: grab;
 }
 
 .header{
     width: 100%;
-    box-sizing: border-box;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 35px 40px;
+
+    background-color: white;
+
+    font-size: 16px;
+    color: black;
+}
+.menu>* {
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+.menu-ul {
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 40px;
+
+    list-style: none;
+}
+.menu-li.active>.menu-link {
+    color: #05A88D;
+    pointer-events: none;
+}
+
+.menu-link:hover {
+    color: #038d76;
+}
+
+.menu-logo {
+    text-align: center;
+
+    font-size: 24px;
+    color: #038d76;
+    font-weight: 700;
+}
+
+.menu-auth {
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 70px;
+
+    list-style: none;
+    color: #05A88D;
+}
+
+.menu-auth>button {
+    padding: 12px 20px;
+    border: solid 1px transparent;
+
+    transition: all 0.4s;
+}
+
+.menu-auth>.menu-signup {
+    border-color: #05A88D;
+
+    background: linear-gradient(to right, #05A88D, transparent);
+    background-size: 0;
+    background-repeat: no-repeat;
+}
+.menu-auth>.menu-signup:hover {
+    color: white;
+    background-size: 200%;
+    border-color: transparent;
+}
+
+.menu-auth>.menu-login:hover {
+    border-color: #05A88D;
 }
