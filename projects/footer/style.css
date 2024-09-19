@@ -2,6 +2,15 @@
     margin: 0;
     padding: 0;
 }
+
+.font 
+{
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
 html,body{
     font-family: 'Exo 2', sans-serif;
     height: 100%;
@@ -16,6 +25,66 @@ html,body{
 }
 .footer{
     flex: 0 0 auto;
+    background-color: #05A88D;
+    height: 260px;
+    color: white;
 }
 
+.footer_top
+{
+    display: flex;
+    margin: 40px;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+}
 
+.footer_right
+{
+    text-align: right;
+}
+
+.logo
+{
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: 700;
+    color: yellow;
+}
+
+.text
+{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.contact
+{
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.phone
+{
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700;
+    color: yellow;
+}
+
+.address
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.footer_botton
+{
+    margin: 40px;
+    font-size: 12px;
+    font-weight: 300;
+}
