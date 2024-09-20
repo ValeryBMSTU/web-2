@@ -1,13 +1,106 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin:0;
+    padding:0;
+  }
+
+  
+
+.menu{
+    font-family: "Montserrat", sans-serif;
+    width: 1440px;
+    height:100px;
+    color: #ffffffff;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
 }
 
-body{
+.menu__ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     
 }
 
-.header{
-    width: 100%;
-    box-sizing: border-box;
+.menu_li{
+    width: 69px;
+    height: 20px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19.5px;
+    letter-spacing: -0.015em;
+    align-items: center;
+    
+    
+}
+
+.menu__link{
+    text-decoration: none;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+}
+
+.menu__link:hover{
+    color: #05A88D;
+    
+}
+
+.menu__logo{
+    width: 167px;
+    height: 29px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.26px;
+    letter-spacing: -0.015em;
+    color: #05A88D;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+.menu__signup{
+    width: 105px;
+    height: 45px;
+    border-radius: 3px;
+    border: 1px solid #05A88D;
+    background-color: #ffffffff;
+    margin-top: 27px;
+   
+}
+
+.menu__signup a{
+    width: 45px;
+    height: 20px;
+    text-decoration: none;
+    color: #05A88D;
+}
+
+.menu__login{
+    width: 105px;
+    height: 45px;
+    border-radius: 3px;
+    border: 1px solid #05A88D;
+    background-color: #ffffffff;
+    margin-top: 27px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.menu__login a{
+    width: 45px;
+    height: 20px;
+    text-decoration: none;
+    color: #05A88D;
+    
 }
