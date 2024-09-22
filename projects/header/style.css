@@ -4,10 +4,74 @@
 }
 
 body{
-    
+    background-color: rgb(200, 200, 200);
+    font-family: 'Montserrat', sans-serif;
 }
 
 .header{
     width: 100%;
     box-sizing: border-box;
+}
+a {
+    text-decoration: none;    
+}
+.menu__ul {
+    list-style:none;
+    display: flex;
+    align-items: center;
+    
+   
+}
+.menu__link{
+    font-size: 16px;
+    color:#000000;
+    margin: 20px;
+    
+}
+.menu__products{
+    color:#05a88d;
+}
+.menu__logo{
+    text-transform:uppercase;
+    font-weight: 700;
+    color: #05a88d;
+    font-size: 24px;
+    margin-left: 30px;
+}
+.user{
+    display: flex;
+      
+}
+.menu{
+    background-color: #FFFFFF;
+    margin: 20px 10px;
+    height: 100px;
+    display: flex;
+    align-items:center;
+    
+    box-shadow:0px 4px 6px 0px #81818140;
+    
+}
+.menu__singup{
+    font-weight:300;
+    font-size: 16px;
+    color:#05a88d;
+    display:flex;
+    border-width: 1.7px;
+    border-style: solid;
+    border-color: #05a88d;
+    padding: 5px 10px;
+    margin:  20px 10px 20px 220px;
+    
+    
+}
+.menu__login{
+    font-size: 16px;
+    margin-right: 60px;
+    padding: 25;
+    margin-right: 25px;
+    color: #05a88d;
+}
+.menu__link:hover{
+    color: #05A85D;
 }
