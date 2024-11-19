@@ -4,10 +4,74 @@
 }
 
 body{
-    
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
 }
 
 .header{
     width: 100%;
     box-sizing: border-box;
 }
+
+.menu{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 5px 10px rgba(100, 100, 100, 0.5);
+    background: #FFFFFF;
+}
+
+
+.menu__ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+.menu__link{
+    font-size: 16px;
+    color: black;
+    margin-left: 40px;
+}
+
+.menu__link:hover{
+    color: #05A88D;
+}
+
+
+.menu-logo{
+    margin: 0 auto;
+}
+
+.menu__logo{
+    font-weight: 700;
+    font-size: 24px;
+    color: #05A88D;
+}
+
+.menu__buttons{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.menu__signup, .menu__login{
+    font-size: 16px;
+    color: #05A88D;
+    margin-right: 70px;
+
+}
+
+.menu__signup{
+    padding: 12px 21px;
+    border: 1px solid #05A88D;
+}
+
