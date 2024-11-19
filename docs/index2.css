@@ -1,0 +1,81 @@
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: 'Montserrat', sans-serif;
+        background-color: #f2f2f2;
+    }
+    
+    .header {
+        width: 100%;
+        background-color: #ffffff;
+        padding: 20px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .menu__ul {
+        display: flex;
+        list-style: none;
+    }
+    
+    .menu__li {
+        margin-right: 30px;
+    }
+    
+    .menu__link {
+        text-decoration: none;
+        color: #000000;
+        font-size: 16px;
+        transition: color 0.3s ease;
+    }
+    
+    .menu__link:hover {
+        color: #05a88d;
+    }
+    
+    .menu__logo {
+        font-size: 24px;
+        font-weight: 700;
+        text-decoration: none;
+        color: #05a88d;
+    }
+    
+    .menu__buttons {
+        display: flex;
+        align-items: center;
+    }
+    
+    .menu__signup {
+        border: 1px solid #05a88d;
+        padding: 5px 15px;
+        border-radius: 4px;
+        text-decoration: none;
+        color: #05a88d;
+        margin-right: 20px;
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+    
+    .menu__signup:hover {
+        background-color: #05a88d;
+        color: #ffffff;
+    }
+    
+    .menu__login {
+        text-decoration: none;
+        color: #05a88d;
+        font-size: 16px;
+        transition: color 0.3s ease;
+    }
+    
+    .menu__login:hover {
+        color: #000000;
+    }
