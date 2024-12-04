@@ -3,11 +3,82 @@
     padding: 0;
 }
 
+:root {
+    --green: #05a88d;
+}
+
 body{
-    
+    font-family: "Montserrat", 'Times New Roman';
 }
 
 .header{
     width: 100%;
     box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    user-select: none;
+}
+
+.menu {
+    display: flex;    
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu__ul {
+    left: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.menu__link {
+    color: black;
+    text-decoration-line: none;
+    transition: .2s ease;
+}
+
+.menu__link:hover {
+    color: var(--green)
+}
+
+.menu__logo {
+    position: absolute;
+    left: 50%;
+    text-align: center;
+    transform: translateX(-50%);
+    font-size: 2vw;
+    color: var(--green);
+    text-decoration-line: none;
+    font-weight: bold;
+}
+
+ul.menu__ul > li.menu__li {
+    padding: 2vw;
+}
+
+.menu__autorization {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    right: 0;
+    width: 20vw;
+    position: absolute;
+}
+
+.menu__signup, .menu__login {
+    color: var(--green);
+    text-decoration-line: none;
+    padding: .7vw 1.6vw;
+}
+
+.menu__signup {
+    border: var(--green) 1px solid;
+    border-radius: .2vw;
+    transition: .2s ease;
+}
+
+.menu__signup:hover {
+    background-color:#04ccab0d;
 }
