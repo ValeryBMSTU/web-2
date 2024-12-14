@@ -1,21 +1,51 @@
-*{
-    margin: 0;
-    padding: 0;
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900 &display=swap');
+*	{
+margin: 0;
+padding: 0;
 }
-html,body{
-    font-family: 'Exo 2', sans-serif;
-    height: 100%;
+html, body {
+font-family: 'Exo 2', sans-serif; height: 100%;
 }
-.wrapper {
-	display: flex;
-	flex-direction: column;
-	min-height: 100%;
+.wrapper { display: flex;
+flex-direction: column; min-height: 100%;
 }
-.main {
-	flex: 1 0 auto;
+.main { flex: 1 0 auto; }
+.footer {
+flex: 0 0 auto; padding: 40px;
+background-color: #05A88D;
 }
-.footer{
-    flex: 0 0 auto;
+.footer  top {
+border-bottom: 2px solid white;
+display: flex;
+justify-content: space-between;
+}
+.footer  left {
+max-width: 437px; margin-bottom: 40px;
+}
+.logo {
+font-size: 28px; line-height: 33.6px; color: #F1E67D; font-weight: 700;
+}
+.text {
+margin-top: 40px; font-size: 12px; line-height: 14.4px;
+letter-spacing: -0.015em; color: white;
+font-weight: 300;
+}
+.contact {
+margin-top: 18px; font-weight: 700; font-size: 14px; line-height: 16.8px;
+letter-spacing: -0.015em; color: white;
+margin-bottom: 16px;
+}
+.phone {
+font-weight: 700; font-size: 24px; line-height: 28.8px;
+letter-spacing: -0.015em; color: #F1E67D;
+}
+.address {
+margin-top: 16px; font-weight: 300; font-size: 12px; line-height: 14.4px;
+letter-spacing: -0.015em; color: white;
 }
 
-
+.footer  bottom {
+font-weight: 300; font-size: 12px; line-height: 14.4px;
+letter-spacing: -1.5%; color: #ffffff;
+margin-top: 40px;
+}
