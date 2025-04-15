@@ -2,8 +2,13 @@
     margin: 0;
     padding: 0;
 }
-body{
-    font-family: 'Open Sans', sans-serif;
+
+.font 
+{
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
 }
 
 .container{
@@ -15,6 +20,56 @@ body{
     padding: 20px;
     background-color: #15638F;
     
+}
+
+.card
+{
+    width: 390px;
+    height: 633px;
+    background-image: url(https://images.unsplash.com/photo-1501785888041-af3ef285b470?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80);
+    background-size: 390px 303.54px;
+    background-repeat: no-repeat;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 0px 12px hsla(0, 0%, 0%, 0.300);
+}
+
+.card_content
+{
+    margin-top: 337.5px;
+}
+
+.title
+{
+    margin: 30px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.text
+{
+    margin: 30px;
+    font-size: 21px;
+}
+
+.button
+{
+    margin-left: 30px;
+    width: 202px;
+    height: 55.5px;
+    background-color: #2797B2;
+    border: 0px;
+    font-size: 21px;
+    font-weight: 700;
+    border-radius: 50px;
+    color: white;
+}
+
+.button:hover
+{
+    background-color: white;
+    color: #2797B2;
+    border: 2px solid #2797B2;
 }
 
 
